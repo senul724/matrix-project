@@ -20,6 +20,7 @@ const Layout = () => {
           <li>
             <Link to="/contact">Contact</Link>
           </li>
+          <h1>OUR GROUP</h1>
         </ul>
       </nav>
 
