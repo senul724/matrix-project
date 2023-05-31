@@ -9,7 +9,7 @@ export const SingleCard = (props) => {
             className="block object-cover object-center w-full h-full rounded-lg"
             src={url} />
         </div>
-        <h2 className="mt-10 text-xl">{title}</h2>
+        <h2 className="text-center mt-10 text-xl">{title}</h2>
         <div className="my-2 w-1/4 bg-[#474747] py-[0.5px]"/>
         <p className="text-[#6b6b6b]">{description}</p>
       </div>
