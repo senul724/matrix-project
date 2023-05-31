@@ -3,8 +3,8 @@ import { Outlet, Link } from "react-router-dom";
 const Layout = () => {
   return (
     <>
-      <nav className="flex justify-center items-center">
-        <ul className="flex flex-row gap-10 text-xl">
+      <nav className="flex justify-center items-center py-8">
+        <ul className="flex flex-row gap-10 text-md">
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -20,7 +20,8 @@ const Layout = () => {
       <div className="min-h-screen">
       <Outlet />
       </div>
-      <div className="flex justify-center items-center text-xl">
+      <hr/>
+      <div className="flex justify-center items-center my-10 text-md">
       <p>This is the footer</p>
       </div>
     </>

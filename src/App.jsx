@@ -4,6 +4,10 @@ import Information from './pages/Information'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import NoPage from './pages/NoPage'
+import Events from './pages/Events'
+import Awurudu from './pages/events/Awurudu'
+import Outings from './pages/events/Outings'
+import Dansala from './pages/events/Dansala'
 
 function App() {
 
@@ -15,6 +19,12 @@ function App() {
           <Route path="info" element={<Information />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
+          <Route path="event" element={<Events/>}>
+            <Route index element={<Awurudu />} />
+            <Route path="awurudu" element={<Awurudu/>}/>
+            <Route path="outings" element={<Outings/>}/>
+            <Route path="dansala" element={<Dansala/>}/>
+          </Route>
         </Route>
       </Routes >
     </BrowserRouter>
