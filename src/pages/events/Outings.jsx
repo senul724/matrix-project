@@ -9,8 +9,8 @@ const Outings = () => {
         <div className="flex flex-wrap -m-1 md:-m-2">
           <div className="flex flex-wrap w-1/2">
             <FlexImage width="w-1/2" src="/outings/beach/van.jpg" />
-            <FlexImage width="w-1/2" src="/outings/beach/kello.jpg" />
-            <FlexImage width="w-full" src="/outings/beach/group.jpg" />
+            <FlexImage width="w-1/2" src="/outings/beach/kello2.jpg" />
+            <FlexImage width="w-full" src="/outings/beach/.jpg" />
           </div>
           <div className="flex flex-wrap w-1/2">
             <FlexImage width="w-full" src="/outings/beach/kollo.jpg" />

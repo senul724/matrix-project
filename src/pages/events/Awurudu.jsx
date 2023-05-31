@@ -53,7 +53,7 @@ const Awurudu = () => {
       <div className="my-2 w-1/3 bg-[#9b9c9e] py-[0.5px]"/>
       <div className="flex flex-wrap items-center mt-10 w-2/3">
         <SingleCard 
-          title="Our Awurudu kumaraya and kumariya" 
+          title="  Our Awurudu kumaraya and kumariya" 
           description="Praveen And Teena" 
           url="/awurudu/winners/kandk.jpg"
         />
