@@ -3,8 +3,8 @@ import { Outlet, Link } from "react-router-dom";
 const Layout = () => {
   return (
     <>
-      <nav className="flex justify-center items-center py-8">
-        <ul className="flex flex-row gap-10 text-md">
+      <nav className="flex justify-center items-center py-12">
+        <ul className="flex flex-row gap-20 text-md font-mono text-xl">
           <li>
             <Link to="/">Home</Link>
           </li>
