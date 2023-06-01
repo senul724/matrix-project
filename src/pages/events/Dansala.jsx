@@ -8,8 +8,8 @@ const Dansala = () => {
         <div className="flex flex-wrap -m-1 md:-m-2">
           <div className="flex flex-wrap w-1/2">
             <FlexImage width="w-full" src="/dansala/dansala.jpg" />
-            <FlexImage width="w-1/2" src="/dansala/g2.jpg" />
-            <FlexImage width="w-1/2" src="/dansala/pan.jpg" />
+            <FlexImage width="w-full" src="/dansala/g2.jpg" />
+            <FlexImage width="w-full" src="/dansala/pan.jpg" />
           </div>
           <div className="flex flex-wrap w-1/2">
             <FlexImage width="w-full" src="/dansala/bgroup.jpg" />
@@ -17,6 +17,10 @@ const Dansala = () => {
             <FlexImage width="w-1/2" src="/dansala/draw.jpg" />
             <FlexImage width="w-full" src="/dansala/group.jpg" />
           </div>
+        </div>
+        <div className="flex flex-wrap -m-1 md:-m-2">
+            <FlexImage width="w-1/3" src="/dansala/banner-making.jpg" />
+            <FlexImage width="w-2/3" src="/dansala/org-team.jpg" />
         </div>
       </div>
     </>
