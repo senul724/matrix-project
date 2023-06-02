@@ -18,7 +18,7 @@ const Layout = () => {
             <Link to="/about us">About Us</Link>
           </li>
           <li>
-            <Link to="/contact">Contacts</Link>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
         <label class="relative block">
