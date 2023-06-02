@@ -9,13 +9,13 @@ const Layout = () => {
             <Link to="/">Home</Link>
           </li>
           <li className="flex justify-center items-center">
-            <Link to="/community">Community</Link>
+            <Link to="/event">Community</Link>
           </li>
           <li className="flex justify-center items-center">
             <Link to="/introduction">Introduction</Link>
           </li>
           <li className="flex justify-center items-center">
-            <Link to="/about us">About Us</Link>
+            <Link to="/about">About Us</Link>
           </li>
           <li className="flex justify-center items-center">
             <Link to="/contact">Contact</Link>
