@@ -4,30 +4,26 @@ const Layout = () => {
   return (
     <>
       <nav className="flex justify-center items-center py-12">
-        <ul className="flex flex-row gap-20 text-md font-mono text-xl">
-          <li>
+        <ul className="flex flex-row gap-20 font-mono text-xl text-md">
+          <li className="flex justify-center items-center">
             <Link to="/">Home</Link>
           </li>
-          <li>
+          <li className="flex justify-center items-center">
             <Link to="/community">Community</Link>
           </li>
-          <li>
+          <li className="flex justify-center items-center">
             <Link to="/introduction">Introduction</Link>
           </li>
-          <li>
+          <li className="flex justify-center items-center">
             <Link to="/about us">About Us</Link>
           </li>
-          <li>
+          <li className="flex justify-center items-center">
             <Link to="/contact">Contact</Link>
           </li>
+          <li className="flex justify-center items-center">
+            <input class="block py-3 pr-5 pl-9 w-full bg-white rounded-md border shadow-sm sm:text-sm focus:ring-1 focus:outline-none placeholder:italic placeholder:text-slate-400 border-slate-300 focus:border-sky-500 focus:ring-sky-500" placeholder="Search for anything..." type="text" name="search"/>
+          </li>
         </ul>
-        <label class="relative block">
-  <span class="sr-only">Search</span>
-  <span class="absolute inset-y-0 left-0 flex pl-2">
-    <svg class="h-6 w-6 fill-slate-300" viewBox="0 0 20 20"></svg>
-  </span>
-  <input class="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-3 pl-9 pr-5 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Search for anything..." type="text" name="search"/>
-</label>
       </nav>
 
       <div className="min-h-screen">
