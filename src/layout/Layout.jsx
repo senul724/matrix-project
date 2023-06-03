@@ -4,7 +4,7 @@ const Layout = () => {
   return (
     <>
       <nav className="flex justify-center items-center py-12">
-        <ul className="flex flex-row gap-20 font-mono text-xl text-md">
+        <ul className="flex flex-row gap-20 font-serif text-xl text-md">
           <li className="flex justify-center items-center">
             <Link to="/">Home</Link>
           </li>
