@@ -1,11 +1,11 @@
 const AboutUs = () => {
   const pics = [
-    {name:"aadil", img:"/about_us/aadil.jpg", email:"maadilfareed1@gmail.com"},
-    {name:"dewmi", img:"/about_us/dewmi.jpg", email:"dasd@gmail.com"},
-    {name:"teena", img:"/about_us/binura.jpeg", email:"uhjkhf@@gmail.com"},
-    {name:"binura", img:"/about_us/teena.jpg", email:"dsadas@gmail.com"},
-    {name:"keshan", img:"/about_us/keshan.jpg", email:"kjsdkajhsd@gmail.com"},
-    {name:"niklesha", img:"/about_us/keshan.jpg", email:"nikleshasemini@gmail.com"},
+    {name:"Aadil Fareed", img:"/about_us/aadil.jpg", email:"maadilfareed1@gmail.com"},
+    {name:"Dewmi Chathurika", img:"/about_us/dewmi.jpg", email:"dasd@gmail.com"},
+    {name:"Binura Rusith", img:"/about_us/binura.jpeg", email:"uhjkhf@@gmail.com"},
+    {name:"Teena Pihara", img:"/about_us/teena.jpg", email:"dsadas@gmail.com"},
+    {name:"Keshan Nimesha", img:"/about_us/keshan.jpg", email:"kjsdkajhsd@gmail.com"},
+    {name:"Niklesha Semini", img:"/about_us/niklesha.jpg", email:"nikleshasemini@gmail.com"},
     ];
   return(
     <div className="flex flex-col items-center w-full">
