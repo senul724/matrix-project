@@ -33,9 +33,10 @@ const Layout = () => {
       <div className="min-h-screen">
       <Outlet />
       </div>
-      <hr/>
-      <div className="flex justify-center items-center my-10 text-md">
-      <p>This is the footer</p>
+      <div className="bg-slate-300 p-5">
+      <div className="flex justify-center items-center text-md bg-transparent">
+      Copyright © 2023 The Matrix All Rights Reserved
+      </div>
       </div>
     </>
   )
