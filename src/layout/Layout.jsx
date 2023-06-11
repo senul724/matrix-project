@@ -9,7 +9,7 @@ const Layout = () => {
        <img src="/top-icon1.jpg" alt="" /> 
        </div>
        <div>
-        <ul className="flex flex-row gap-20 font-serif text-xl text-md">
+        <ul className="flex flex-row gap-20 text-xl text-md">
           <li className="flex justify-center items-center">
             <Link to="/">Home</Link>
           </li>
