@@ -5,7 +5,7 @@ const Layout = () => {
     <>
     <div>
       <nav className="flex justify-center items-center">
-        <div className="w-1/12">
+        <div className="w-24">
           <img src="/top-icon1.jpg" alt="" /> 
         </div>
         <div className="flex justify-center items-center w-3/4">
