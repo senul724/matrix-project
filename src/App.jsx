@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Layout from './layout/Layout'
-import Introduction from './pages/Introduction'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import NoPage from './pages/NoPage'
@@ -17,7 +16,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="introduction" element={<Introduction />} />
           <Route path="contact" element={<Contact />} />
           <Route path="about" element={<AboutUs />} />
           <Route path="event" element={<Events/>}>
