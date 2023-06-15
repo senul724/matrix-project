@@ -6,7 +6,8 @@ const AboutUs = () => {
     {name:"Teena Pihara", img:"/about_us/teena.jpg", email:"dsadas@gmail.com"},
     {name:"Keshan Nimesha", img:"/about_us/keshan.jpg", email:"kjsdkajhsd@gmail.com"},
     {name:"Niklesha Semini", img:"/about_us/niklesha.jpg", email:"nikleshasemini@gmail.com"},
-    {name:"Nimeth Shavinda", img:"/about_us/shavinda.jpg", email:"nimethshavinda@gmail.com"}
+    {name:"Nimeth Shavinda", img:"/about_us/shavinda.jpg", email:"nimethshavinda@gmail.com"},
+    {name:"Hasini", img:"/about_us/shavinda.jpg", email:"nimethshavinda@gmail.com"}
     ];
   return(
     <div className="flex flex-col items-center w-full">
